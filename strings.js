@@ -24,3 +24,11 @@ var numOfSandwhiches = 4*2;
   var domString = "<h4>" + yarn + "</h4>";
   var myDiv = document.getElementById('yarn-holder');
   myDiv.innerHTML = domString;
+
+  // challenge 5
+    var str = 'IBMWLOVEbmcatsbmw';
+    var lovecats= str.replace(/[BMWbmw]/g,"");
+    var catString = "<h1>" + lovecats + "</h1>";
+    var catDiv = document.getElementById('cats');
+    catDiv.innerHTML = catString;
+    
